@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "image": "/assets/imgs/Alice_Charles.png",
+    "image": "./assets/imgs/Alice_Charles.png",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "/assets/imgs/Astrid_Sloane.png",
+    "image": "./assets/imgs/Astrid_Sloane.png",
     "clicked": false
   },
   {
     "id": 3,
-    "image": "/assets/imgs/Dede_Standish.png",
+    "image": "./assets/imgs/Dede_Standish.png",
     "clicked": false
   },
   {
     "id": 4,
-    "image": "/assets/imgs/Georgina_Hobart.png",
+    "image": "./assets/imgs/Georgina_Hobart.png",
     "clicked": false
   },
   {
     "id": 5,
-    "image": "/assets/imgs/Hadassah_Gold.png",
+    "image": "./assets/imgs/Hadassah_Gold.png",
     "clicked": false
   },
   {
     "id": 6,
-    "image":  "/assets/imgs/Infinity_Jackson.png",
+    "image":  "./assets/imgs/Infinity_Jackson.png",
     "clicked": false
   },
   {
     "id": 7,
-    "image": "/assets/imgs/James_Sullivan.png",
+    "image": "./assets/imgs/James_Sullivan.png",
     "clicked": false
   },
   {
     "id": 8,
-    "image": "/assets/imgs/Keaton_Hobart.png",
+    "image": "./assets/imgs/Keaton_Hobart.png",
     "clicked": false
   },
   {
     "id": 9,
-    "image": "/assets/imgs/McAfee_Westbrook.png",
+    "image": "./assets/imgs/McAfee_Westbrook.png",
     "clicked": false
   },
   {
     "id": 10,
-    "image": "/assets/imgs/Payton_Hobart.png",
+    "image": "./assets/imgs/Payton_Hobart.png",
     "clicked": false
   },
   {
     "id": 11,
-    "image": "/assets/imgs/River_Barkley.png",
+    "image": "./assets/imgs/River_Barkley.png",
     "clicked": false
   },
   {
     "id": 12,
-    "image": "/assets/imgs/Skye_Leighton.png",
+    "image": "./assets/imgs/Skye_Leighton.png",
     "clicked": false
   }
 ]

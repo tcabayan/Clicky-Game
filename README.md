@@ -1,3 +1,17 @@
+# The Politician Clicky Game
+A simple memory game based on Netflix popular show "The Politician" built with React. 
+
+# Directions
+
+1. Go to https://tcabayan.github.io/Clicky-Game/.
+
+1. Once you are on the above page, you will see twelve images each representing a character of The Politican on the screen. To start the memory game, click on any image. You will find that the images shuffle each time you click on an image.
+
+1. Each time you click an image for the first tinme, one point will be added to your score. 
+
+1. If you click on the same image more than once, your score will be reset to zero and the game will restart. 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
