@@ -11,7 +11,7 @@ A simple memory game based on Netflix popular show "The Politician" built with R
 
 1. If you click on the same image more than once, your score will be reset to zero and the game will restart. 
 
-
+# React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
