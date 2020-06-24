@@ -1,4 +1,4 @@
-#rw {
+#gameOver {
   background-color: red;
   color: white;
   display: flex;
@@ -8,24 +8,24 @@
   align-items: center;
 }
 
-#rw:empty {
+#gameOver:empty {
   display: none;
 }
 
 @media (max-width: 900px) {
-  #rw {
+  #gameOver {
     font-size: 1.5rem;
   }
 }
 
 @media (max-width: 500px) {
-  #rw {
+  #gameOver {
     font-size: 1.25rem;
   }
 }
 
 @media (max-width: 400px) {
-  #rw {
+  #gameOver {
     font-size: 1rem;
   }
 }

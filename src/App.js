@@ -22,7 +22,7 @@ class App extends Component {
     friends,
     currentScore: 0,
     topScore: 0,
-    rightWrong: "",
+    gameOver: "",
     clicked: [],
   };
 
@@ -39,13 +39,14 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      rightWrong: ""
+      gameOver: ""
     });
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
-    else if (newScore === 12) {
-      this.setState({ rightWrong: "You won the election! Payton would be so proud!" });
+    if (newScore === friends.length) {
+      console.log("You won!");
+      this.setState({ gameOver: "You won the election! Payton would be so proud!" });
     }
     this.handleShuffle();
   };
@@ -54,7 +55,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "OHHH NO! You lost the election! Click on any card to restart the game.",
+      gameOver: "OHHH NO! You lost the election! Click on any card to restart the game.",
       clicked: []
     });
     this.handleShuffle();
@@ -80,9 +81,8 @@ class App extends Component {
 
         <Container>
             {this.state.friends.map(friend => (
-              <div className="card-container">
+              <div className="card-container" key={friend.id}>
                 <FriendCard
-                  key={friend.id}
                   handleClick={this.handleClick}
                   handleIncrement={this.handleIncrement}
                   handleReset={this.handleReset}
@@ -95,7 +95,7 @@ class App extends Component {
         </Container>
 
         <Message
-          rightWrong={this.state.rightWrong}
+          gameOver={this.state.gameOver}
         />
       </Wrapper>
     );
